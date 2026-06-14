@@ -48,17 +48,21 @@ This project was developed to improve my skills in Laravel, API integration, web
 
 ### Home Page
 <p align="center">
-  <img src="screenshots/home.png" width="600">
+  <img src="Screenshot/home-page.png" width="700">
 </p>
+
+---
 
 ### Search Results
 <p align="center">
-  <img src="screenshots/search.png" width="600">
+  <img src="Screenshot/search-results.png" width="700">
 </p>
 
-### Movie Details
+---
+
+### Movie Links Page
 <p align="center">
-  <img src="screenshots/details.png" width="600">
+  <img src="Screenshot/movie-links.png" width="700">
 </p>
 
 ---
