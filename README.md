@@ -7,53 +7,146 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+🎬 Movie Search System
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A web-based Movie Search System built with Laravel that allows users to search for movies and view detailed information using the OMDb API.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📖 Project Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The Movie Search System is designed to help users find movie information quickly and easily. By entering a movie title, users can retrieve real-time data including movie posters, ratings, release dates, genres, and plot summaries.
 
-## Learning Laravel
+This project was developed to improve my skills in Laravel, API integration, web development, and database management.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## ✨ Features
 
-## Laravel Sponsors
+- Search movies by title
+- View movie posters
+- Display movie ratings
+- Show release date and genre
+- View movie plot summaries
+- Responsive user interface
+- Real-time data from OMDb API
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠 Technologies Used
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Laravel
+- PHP
+- MySQL
+- HTML
+- CSS
+- Blade Template Engine
+- OMDb API
+- Git & GitHub
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📷 Screenshots
 
-## Code of Conduct
+### Home Page
+<p align="center">
+  <img src="screenshots/home.png" width="600">
+</p>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Search Results
+<p align="center">
+  <img src="screenshots/search.png" width="600">
+</p>
 
-## Security Vulnerabilities
+### Movie Details
+<p align="center">
+  <img src="screenshots/details.png" width="600">
+</p>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## ⚙ Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/movie-search-system.git
+```https://github.com/Ratul-007/Movie-Search-System
+
+### Navigate to Project Directory
+
+```bash
+cd movie-search-system
+```
+
+### Install Dependencies
+
+```bash
+composer install
+```
+
+
+### Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### Run the Project
+
+```bash
+php artisan serve
+```
+
+Visit:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🚀 How It Works
+
+1. User enters a movie title.
+2. Laravel sends a request to the OMDb API.
+3. The API returns movie information.
+4. The system processes the data.
+5. Results are displayed on the web page.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project I learned:
+
+- Laravel MVC architecture
+- API integration
+- Environment configuration
+- Route handling
+- Blade templating
+- GitHub version control
+- Web application development
+
+---
+
+## 👨‍💻 Author
+
+Ratul
+
+LinkedIn: https://www.linkedin.com/in/ratul-das-b1807133a/
+
+GitHub: https://github.com/Ratul-007
+
+---
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork it
+📢 Share it
+
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
